@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|Merriweather:400italic,400' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" type="text/css" crossorigin="">
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Josh Csapo | PORTFOLIO</title>
+</head>
+<body>
+	<a class="cd-nav-trigger cd-text-replace" href="#primary-nav">Menu<span aria-hidden="true" class="cd-icon"></span></a>
+	
+	<div class="cd-projects-container">
+		<ul class="cd-projects-previews">
+			<li>
+				<a href="#0">
+					<div class="cd-project-title">
+						<h2>About Me</h2>
+						<p>GIS Enthusiast. Software Developer. Cat Dad.</p>
+					</div>
+				</a>
+			</li>
+
+			<li>
+				<a href="#0">
+					<div class="cd-project-title">
+						<h2>Spatial Data & Analysis</h2>
+						<p>Leveraging data for a better understanding of our world</p>
+					</div>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#0">
+					<div class="cd-project-title">
+						<h2>Intertactive Cartography</h2>
+						<p>Dynamic and aesthetic spatial web design </p>
+					</div>
+				</a>
+			</li>
+
+		</ul> <!-- .cd-projects-previews -->
+
+		<ul class="cd-projects">
+			<li>
+				<div class="preview-image">
+					<div class="cd-project-title">
+						<h2>About Me</h2>
+						<p>GIS Enthusiast. Software Developer. Cat Dad.</p>
+					</div> 
+				</div>
+
+				<div class="cd-project-info">
+					<p>
+						Born and raised in Michigan, I recieved my bachelor's degree from the Univeristy of Michigan - Flint in Mathematics. I also had a concentration in Geographic Information Systems. This pairing has led me to the firm belief that creative analysis is the most effective way to gain insight 
+					</p>
+					<center>
+						<img src="img/portfolio.jpg" width="30%" />
+					</center>
+					<p>
+						In my spare time, I am an avid reader, Dungeons & Dragons player, and track and field fan, and try to get and run as often as possible. I've had the distinct pleasure of attending several major events at Hayward field, and take any opportunity I can to visit the running mecca.
+					</p>
+					<center>
+						<img src="img/hayward.jpg"  width="30%">
+					</center>
+					<p>
+						I also spend a decent amount of time an eye on my cats, and making sure they don't get up to too much trouble.
+					</p>
+					<center>
+						<img src="img/cuddles.jpg"  width="25%">
+					</center>
+				</div> <!-- .cd-project-info -->
+			</li>
+
+			<li>
+				<div class="preview-image">
+					<div class="cd-project-title">
+						<h2>Project 2</h2>
+						<p>Brief description of the project here</p>
+					</div> 
+				</div>
+
+				<div class="cd-project-info">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quod dicta aliquid nemo repellendus distinctio minus dolor aperiam suscipit, ea enim accusantium, deleniti qui sequi sint nihil modi amet eligendi, quidem animi error labore voluptatibus sed. Qui magnam labore, iusto nostrum. Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam. Sunt quaerat natus cupiditate iure ipsa voluptatibus recusandae ratione vitae amet distinctio, voluptas, minus vero expedita ea fugit similique sit cumque ad id facere? Ab quas, odio neque quis ratione. Natus labore sit esse, porro placeat eum hic.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quod dicta aliquid nemo repellendus distinctio minus dolor aperiam suscipit, ea enim accusantium, deleniti qui sequi sint nihil modi amet eligendi, quidem animi error labore voluptatibus sed. Qui magnam labore, iusto nostrum. Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam. Sunt quaerat natus cupiditate iure ipsa voluptatibus recusandae ratione vitae amet distinctio, voluptas, minus vero expedita ea fugit similique sit cumque ad id facere? Ab quas, odio neque quis ratione. Natus labore sit esse, porro placeat eum hic.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quod dicta aliquid nemo repellendus distinctio minus dolor aperiam suscipit, ea enim accusantium, deleniti qui sequi sint nihil modi amet eligendi, quidem animi error labore voluptatibus sed. Qui magnam labore, iusto nostrum. Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam. Sunt quaerat natus cupiditate iure ipsa voluptatibus recusandae ratione vitae amet distinctio, voluptas, minus vero expedita ea fugit similique sit cumque ad id facere? Ab quas, odio neque quis ratione. Natus labore sit esse, porro placeat eum hic.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quod dicta aliquid nemo repellendus distinctio minus dolor aperiam suscipit, ea enim accusantium, deleniti qui sequi sint nihil modi amet eligendi, quidem animi error labore voluptatibus sed. Qui magnam labore, iusto nostrum. Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam. Sunt quaerat natus cupiditate iure ipsa voluptatibus recusandae ratione vitae amet distinctio, voluptas, minus vero expedita ea fugit similique sit cumque ad id facere? Ab quas, odio neque quis ratione. Natus labore sit esse, porro placeat eum hic.
+					</p>
+				</div> <!-- .cd-project-info -->
+			</li>
+
+			<li>
+				<div class="preview-image">
+		
+					<div id="map"></div>
+					<script>
+						mapboxgl.accessToken = 'pk.eyJ1IjoiamNzYXBvIiwiYSI6ImNsZm85anFvaTBjcmozcWtiYWJleHQyamIifQ.h_ZkQOHqOk1FkEInQTXE8w';
+						const map = new mapboxgl.Map({
+						container: 'map', // container ID
+						// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+						style: 'mapbox://styles/jcsapo/clgb195nx00gl01o2nbqryphv', // style URL
+						center: [-83.7, 42.79], // starting position [lng, lat]
+						zoom: 12 // starting zoom
+							});
+					</script>
+					
+				</div>
+			
+				<div class="cd-project-info">
+					<p>
+					Powered by Mapbox and inspired by Andy Weir's The Martian, this map evokes the excitement of exploration beyond our planet.
+					</p>
+					
+				</div> <!-- .cd-project-info -->
+				
+			</li>
+
+
+
+		</ul> <!-- .cd-projects -->
+
+		<button class="scroll cd-text-replace">Scroll</button>
+	</div> <!-- .cd-project-container -->
+	
+	<nav class="cd-primary-nav" id="primary-nav">
+		<ul>
+			<li class="cd-label">Contact Me</li>
+			<li>email: <a href="mailto:lloydcsapo@outlook.com">lloydcsapo@outlook.com</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
+
