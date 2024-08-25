@@ -15,6 +15,7 @@
 <style>
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+#map1 { position: relative; top: 0; bottom: 0; width: 80%; height: 400px;}
 </style>
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
@@ -105,7 +106,9 @@ body { margin: 0; padding: 0; }
 					</p>
 					<br>
 					<br>
-					<h1><b>Driving in the time of COVID</b></h1>
+					<center>
+					<h1><b>DRIVING IN THE TIME OF COVID</b></h1>
+					</center>
 					<br>
 					<p>An exploration of bivariate data, this infographic offers a cursory glance into how COVID 
 						affected driving behavior, work from home tendencies, and some of the reasons people never went back to 
@@ -119,7 +122,9 @@ body { margin: 0; padding: 0; }
 					</center>
 					<br>
 					<br>
-					<h1>Terrain Mapping</h1>
+					<center>
+						<h1><b>Terrain Mapping</b></h1>
+					</center>
 					<br>
 					<p>An exercise in the art of terrain mapping, below is a fictional route map of a Tour de France - style race through British Columbia and the Pacific Northwest.
 					</p>
@@ -131,7 +136,9 @@ body { margin: 0; padding: 0; }
 					</center>
 					<br>
 					<br>
-					<h1>City of Tomball, TX </h1>
+					<center>
+						<h1><b>City of Tomball, TX</b></h1>
+					</center>
 					<br>
 					<p>
 						As part of a database design project, parcel and zoning data from the city of Tomball were aggregate to produce the following maps. The project examined 
@@ -155,6 +162,8 @@ body { margin: 0; padding: 0; }
 							<img src="img/avg_acre_value_by_zone_district.jpg" alt="infographic" width="50%">
 						</a>
 					</center>
+
+	
 					
 				</div> <!-- .cd-project-info -->
 			</li>
@@ -163,23 +172,50 @@ body { margin: 0; padding: 0; }
 				<div class="preview-image">
 		
 					<div id="map"></div>
-					<script>
-						mapboxgl.accessToken = 'pk.eyJ1IjoiamNzYXBvIiwiYSI6ImNsZm85anFvaTBjcmozcWtiYWJleHQyamIifQ.h_ZkQOHqOk1FkEInQTXE8w';
-						const map = new mapboxgl.Map({
-						container: 'map', // container ID
-						// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-						style: 'mapbox://styles/jcsapo/clgb195nx00gl01o2nbqryphv', // style URL
-						center: [-83.7, 42.79], // starting position [lng, lat]
-						zoom: 12 // starting zoom
-							});
-					</script>
 					
 				</div>
 			
 				<div class="cd-project-info">
+					<center>
+						<h1><b>Mapbox Design</b></h1>
+					</center>
+					<br>
 					<p>
 					Powered by Mapbox and inspired by Andy Weir's The Martian, this map evokes the excitement of exploration beyond our planet.
 					</p>
+					
+					<center>
+					<div id="map1"></div>
+					</center>
+					
+					<script>
+						mapboxgl.accessToken = 'pk.eyJ1IjoiamNzYXBvIiwiYSI6ImNtMDlwbzdiZjFhOHUya29taHBkOTBrYTMifQ.i-4P_3Z50tLnyxdyMIefLg';
+						var map1 = new mapboxgl.Map({
+							container: 'map1', // container ID
+							// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+							style: 'mapbox://styles/jcsapo/clgb195nx00gl01o2nbqryphv', // style URL
+							center: [-83.7, 42.79], // starting position [lng, lat]
+							zoom: 12 // starting zoom
+							});
+					</script>
+					<br></br>
+					<br>
+					<center>
+						<h1><b>Well Nitrate Levels and Cancer Prevalence</b></h1>
+					</center>
+					<br>
+					<p>
+						Examine the spatial relationship between well nitrate levels and cancer occurrences using <a href="https://jlloydcsapo.github.io/well-nitrate-cancer-project1/"> this web mapping and analysis application</a>.
+					</p>
+					<br>
+					<center>
+						<h1><b>Rent Cost Explorer</b></h1>
+					</center>
+					<br>
+					<p>
+						Identify areas of affordable rent within a give geographic area: <a href="https://jlloydcsapo.github.io/2023_Final_Project/"> Interactive Rent Explorer</a>.
+					</p>
+					<br>
 					
 				</div> <!-- .cd-project-info -->
 				
